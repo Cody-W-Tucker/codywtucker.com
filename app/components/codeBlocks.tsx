@@ -44,7 +44,7 @@ export function Code({ children, className, ...props }) {
   }, [children, isMermaid]);
 
   if (isMermaid) {
-    return <div ref={ref} className="mermaid-wrapper" />;
+    return <code ref={ref} className="mermaid-wrapper" />;
   }
 
   return (

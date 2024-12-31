@@ -1,7 +1,7 @@
 ---
 title: A Unified Theory of Living Knowledge Management
-publishedAt: 2024-12-12
-date modified: 2024-12-13
+createdDate: 2024-12-12
+modifiedDate: 2024-12-31
 ---
 
 # A Unified Theory of Living Knowledge Management
