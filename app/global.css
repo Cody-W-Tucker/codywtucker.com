@@ -1,4 +1,6 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 ::selection {
   background-color: #47a3f3;
@@ -53,7 +55,7 @@ html {
 
 .prose .anchor:after {
   @apply text-neutral-300 dark:text-neutral-700;
-  content: '#';
+  content: "#";
 }
 
 .prose *:hover > .anchor {
@@ -72,6 +74,10 @@ html {
   @apply p-0;
   border: initial;
   line-height: 1.5;
+}
+
+.prose pre div[class*="mermaid-wrapper"] p {
+  @apply text-current;
 }
 
 .prose code span {
@@ -131,8 +137,8 @@ pre {
 }
 
 /* Remove Safari input shadow on mobile */
-input[type='text'],
-input[type='email'] {
+input[type="text"],
+input[type="email"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

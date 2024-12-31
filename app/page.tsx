@@ -1,21 +1,23 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from "app/components/posts";
 
 export default function Page() {
   return (
-    <section>
+    <section className="prose dark:prose-invert">
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Cody Tucker
       </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+      <p>
+        {`I am an AI Researcher and modern philosopher exploring the intricate relationship between technological advancement and human development.`}
       </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
+      <p>
+        {`My work spans the intersection of artificial intelligence, business
+        optimization, and societal evolution, with a focus on creating systems
+        that enhance human capabilities while maintaining our essential
+        humanity.`}
+      </p>
+
+      <h2>Current Projects</h2>
+      <BlogPosts />
     </section>
-  )
+  );
 }
